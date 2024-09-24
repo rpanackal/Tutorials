@@ -479,7 +479,7 @@ First, let's adjust the Maven pom file of the `application` sub-module by adding
 ```XML
 <dependency>
    <groupId>org.wiremock</groupId>
-   <artifactId>wiremock</artifactId>
+   <artifactId>wiremock-jetty12</artifactId>
    <version>3.3.1</version>
    <scope>test</scope>
 </dependency>
